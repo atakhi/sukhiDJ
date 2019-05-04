@@ -1,0 +1,13 @@
+#home-intro{
+    max-width: 735px;
+    margin: 0 auto;
+    padding: 30px 0;
+    text-align: center;
+}
+.homeVideo{
+    margin: 10px;
+}
+video{
+    width: 100%;
+    height: auto;
+}

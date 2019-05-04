@@ -1,0 +1,19 @@
+.brandLogo{
+    height: 50px;
+    width: 100px;
+}
+.headerContainer{
+    background-color: #333;
+    position: sticky;
+    top:0;
+}
+li a {
+    color:#cbbde2;
+}
+.active{
+    color:white !important;
+    font-weight: bolder;
+}
+a:hover{
+    color:white;
+}

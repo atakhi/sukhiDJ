@@ -1,0 +1,27 @@
+<div class="headerContainer">
+<ul class="nav justify-content-center">
+  <li class="nav-item brandLogo">
+    <a routerLink='/home' id="logo">
+      <img src="../../assets/Hyatt_logo.svg" alt="node.js">
+    </a>
+  </li>
+</ul>
+<ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link" routerLink='/home' routerLinkActive='active'>Home</a>
+  </li>
+  <li class="nav-item dropdown" dropdown>
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gallery</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" routerLink="gallery/photos" routerLinkActive="active">Photos</a>
+        <a class="dropdown-item" routerLink="gallery/videos" routerLinkActive="active">Videos</a>
+      </div>
+    </li>
+  <li class="nav-item">
+      <a class="nav-link" routerLink='/services' routerLinkActive='active'>Services</a>
+    </li>
+  <li class="nav-item">
+    <a class="nav-link" routerLink='/booking' routerLinkActive='active'>Contact Us</a>
+  </li>
+</ul>
+</div>
